@@ -1,0 +1,6 @@
+# Mounts the plugin-security-review skill provider.
+# The skill appears in the agent catalog of every agent preset that has the
+# skill tool enabled; no user-level files are touched.
+- insert:
+    - id: skill-security-review
+      name: dsh-skill-security-review
